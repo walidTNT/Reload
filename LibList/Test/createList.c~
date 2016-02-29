@@ -1,0 +1,21 @@
+#include<stdlib.h>
+
+typedef struct element element;
+struct element
+{
+  int value;
+  struct element *next;
+};
+
+typedef element* list;
+
+int  createList()
+{
+  list new_list = NULL;
+  return 0;
+}
+
+int main(int argc, char **argv)
+{
+  createList();
+}
